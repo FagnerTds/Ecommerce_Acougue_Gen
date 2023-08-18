@@ -13,18 +13,6 @@ public class Menu {
 		
 		EacougueControler acougue = new EacougueControler();
 		
-		Produtos p1 = new Produtos(1,1,2,1,20.35);
-		acougue.adicionarPedidos(p1);
-		
-		Produtos p2 = new Produtos(2,2,2,1,62.30);
-		acougue.adicionarPedidos(p2);
-		
-		Produtos p3= new Produtos(3,3,3,1,15.88);
-		acougue.adicionarPedidos(p3);
-		
-		Produtos p4 = new Produtos(4,4,2,1,24.54);
-		acougue.adicionarPedidos(p4);
-		
 		Scanner sc = new Scanner(System.in);
 		int opcao, tipo, categoria, numero, pagamento;
 		boolean novaCarne=true, novaAve=true, novoPeixe=true, novoSuino=true;
@@ -155,7 +143,7 @@ public class Menu {
 					do {
 						System.out.println(Cores.TEXT_YELLOW +"      SELECIONE O TIPO DE AVE"+ Cores.TEXT_RESET);
 						System.out.println("                                                 ");
-						System.out.println("    1 - Peito de frango \t\tPreço R$25.00 - KG   ");
+						System.out.println("    1 - Peito de frango \tPreço R$25.00 - KG   ");
 						System.out.println("    2 - Filé de frango \t\tPreço R$17.00 - kg    ");
 						System.out.println("    3 - Asa de frango \t\tPreço R$12.99 - kg     ");
 						System.out.println("    4 - Tulipa Temperada \tPreço R$20.00 - kg    ");
